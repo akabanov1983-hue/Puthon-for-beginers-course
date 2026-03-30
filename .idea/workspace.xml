@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8823165-292f-47a7-8b10-b570489632cf" name="Changes" comment="Обнова в домашке по 2 лекции">
+    <list default="true" id="d8823165-292f-47a7-8b10-b570489632cf" name="Changes" comment="Обнова по КВ">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 3/Andrey_Kabanov_class_work_L3_P1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture 3/Andrey_Kabanov_class_work_L3_P1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture 2/Andrey_Kabanov_home_work_L2_P2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture 2/Andrey_Kabanov_home_work_L2_P2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +160,28 @@
       <option name="project" value="LOCAL" />
       <updated>1774627796580</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Обнова по КВ">
+      <created>1774636876511</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1774636876511</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Обнова по КВ">
+      <created>1774636930561</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1774636930561</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Обнова по КВ">
+      <created>1774636989326</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1774636989326</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -181,6 +202,7 @@
     <MESSAGE value="Изменил имя для файла с лекцией 2.2" />
     <MESSAGE value="Изменено название фала с Л3" />
     <MESSAGE value="Обнова в домашке по 2 лекции" />
-    <option name="LAST_COMMIT_MESSAGE" value="Обнова в домашке по 2 лекции" />
+    <MESSAGE value="Обнова по КВ" />
+    <option name="LAST_COMMIT_MESSAGE" value="Обнова по КВ" />
   </component>
 </project>
