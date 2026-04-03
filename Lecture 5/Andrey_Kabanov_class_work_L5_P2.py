@@ -117,4 +117,100 @@
 #
 # summa(b=888)
 
-summa(12)
+# summa(12)
+
+# def one():
+#     return  1
+# res = one()
+#
+# print(res)
+#
+# def empty():
+#     pass
+#
+# print(empty())
+#
+# def mul(a, b):
+#     '''
+#     Эта функция умножает 2 числа
+#     Аргументы
+#     а
+#     б
+#     Возвращает целое число
+#
+#     '''
+#     res = a * b
+#     return res
+#
+# print(help(mul))
+#
+# print(id(mul))
+
+# def check_age(age):
+#     if age >= 18:
+#         return True
+#     else:
+#         return False
+#
+#
+# res = check_age(15)
+#
+# print(res)
+
+# def check_age(age):
+#     return age >= 18
+
+# LEGB
+# локальная и глобальная область видимости
+
+# nnn = 99999  # глобальная переменная
+#
+# def h(n):
+#     n = 999 + nnn  # локальная переменная
+#     print(n)
+#     n = 'ssdfgg'
+#     print(n)
+#
+# print(h(5))
+
+# age = 20
+#
+# def grow_up(age_1, n):
+#     age_1 += n
+#     return age_1
+#
+# print(grow_up(age, 45))
+
+# факториал
+
+# функция факториал(n)
+
+# n = 5  факториал = 1*2*3*4*5
+
+# def my_factorial(n):
+#     if n < 0:
+#         return None
+#     if n <= 1:
+#         return 1
+#
+#     res = 1
+#
+#     for i in range(2, n + 1):
+#         res *= i
+#
+#     return res
+#
+#
+# def run():
+#     li = [-999, 0, 1, 9, 2, 5]
+#     res_list = [None, 1, 1, 362880, 2, 120]
+#
+#     for num, result in zip(li, res_list):
+#         if my_factorial(num) == result:
+#             print('ok')
+#         else:
+#             print('faled')
+#             print("Ожидалось:", num, result)
+#             print("А получилось:", num, my_factorial(num))
+#
+# run()
