@@ -214,3 +214,21 @@
 #             print("А получилось:", num, my_factorial(num))
 #
 # run()
+
+
+n = 10
+
+
+def func(n):
+
+    if n >= 0:
+        return func(n-1)
+    if n < 0:
+        return n
+
+
+res = func(100)
+
+print(res)
+
+
