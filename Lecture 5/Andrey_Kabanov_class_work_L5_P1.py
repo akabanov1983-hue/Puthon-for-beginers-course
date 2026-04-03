@@ -15,10 +15,4 @@
 #     print(chr(ord(i)-key), end="")
 
 
-def give_me_message(text):
-    message = input(text)
-    return message
-
-res = give_me_message("Введите текст: ")
-
-print(res)
+#  
