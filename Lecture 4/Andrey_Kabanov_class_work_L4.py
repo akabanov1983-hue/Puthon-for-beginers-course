@@ -167,10 +167,10 @@
 #
 # print(url_list)
 
-s = '            hjkhkhhj kjjkjjk    kjkjjjjjjjjjjkj          '
-
-print(s.strip())
-print(s.lstrip())
-print(s.rstrip())
-
-# 01.04.2026
+# s = '            hjkhkhhj kjjkjjk    kjkjjjjjjjjjjkj          '
+#
+# print(s.strip())
+# print(s.lstrip())
+# print(s.rstrip())
+#
+# # 01.04.2026
