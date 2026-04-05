@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8823165-292f-47a7-8b10-b570489632cf" name="Changes" comment="Обнова по КВ 5">
-      <change afterPath="$PROJECT_DIR$/Lecture 3/Andrey_Kabanov_home_work_L3.py" afterDir="false" />
+    <list default="true" id="d8823165-292f-47a7-8b10-b570489632cf" name="Changes" comment="Добавлен файл с ДЗ по лекции 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture 3/Andrey_Kabanov_home_work_L3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture 3/Andrey_Kabanov_home_work_L3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,7 @@
     &quot;last_opened_file_path&quot;: &quot;E:/Курс Python для начинающих&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Andrey_Kabanov_home_work_L3">
     <configuration name="Andrey_Kabanov_CW_L2_P1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Курс Python для начинающих" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,8 +103,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Andrey_Kabanov_home_work_L3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Курс Python для начинающих" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lecture 3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lecture 3/Andrey_Kabanov_home_work_L3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Andrey_Kabanov_home_work_L3" />
         <item itemvalue="Python.Andrey_Kabanov_CW_L2_P1" />
       </list>
     </recent_temporary>
@@ -258,7 +280,21 @@
       <option name="project" value="LOCAL" />
       <updated>1775242749086</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Обнова по КВ 5">
+      <created>1775320458946</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1775320458946</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Добавлен файл с ДЗ по лекции 3">
+      <created>1775320508453</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1775320508453</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -282,6 +318,7 @@
     <MESSAGE value="Обнова по КВ" />
     <MESSAGE value="Обнова по КВ 4" />
     <MESSAGE value="Обнова по КВ 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Обнова по КВ 5" />
+    <MESSAGE value="Добавлен файл с ДЗ по лекции 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен файл с ДЗ по лекции 3" />
   </component>
 </project>
