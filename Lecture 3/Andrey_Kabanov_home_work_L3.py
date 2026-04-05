@@ -25,6 +25,26 @@
 #
 # print(f'Список после изменений: {hat_list}')
 
+#  Home work 3.3.
+# The bubble sort.
+
+# #  Original list.
+# li = [3, 5, 2, 0]
+#
+# swapped = True  # This flag shows changes between list's elements.
+#
+# print(li)
+#
+# #  Sort elements in loop.
+# while swapped:
+#     swapped = False
+#     for i in range(len(li) - 1):
+#         if li[i] > li[i+1]:
+#             li[i], li[i+1] = li[i+1], li[i]
+#             swapped = True
+#
+# #  Print sorted list.
+# print(li)
 
 # # Home work 3.4 (lab)
 # # Make a new list with unique numbers only.
