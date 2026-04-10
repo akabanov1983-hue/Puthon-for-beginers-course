@@ -1,6 +1,5 @@
-from todoist_pkg import useful_funcs as u
-from todoist_pkg import stats as s
-from todoist_pkg import backup as bb
+import useful_funcs as u
+
 
 todos = {
     1:{
