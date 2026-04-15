@@ -57,3 +57,17 @@
 #     except:
 #         print("Возникла ошибка, побробуйте еще раз")
 
+# 15-04-2026
+# for i in range(5):
+#     try:
+#         print(1/i)
+#     except ZeroDivisionError as e:
+#         print(e, 'На ноль делить нельзя')
+#     except:
+#         print('Ошибка')
+
+def xxx(x):
+    return x**2
+
+
+print(xxx(5))
