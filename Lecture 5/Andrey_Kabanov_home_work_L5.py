@@ -1,4 +1,4 @@
-# # Home work Lab 5.0
+# # Home work Lab 5.0.
 #
 # # Эта функция складывает 2 числа.
 # def plus(num_1, num_2):
@@ -54,8 +54,8 @@
 # main()
 
 
-# Home work 5.1
-
+# # Home work 5.1
+#
 # def is_year_leap(year):
 #     """Проверить, является ли год високосным.
 #
@@ -74,7 +74,6 @@
 #
 # # Тестовые данные.
 # test_data = [1500, 1900, 2000, 2016, 1987]
-#
 # test_results = [False, False, True, True, False]
 #
 # # Проверка результатов работы функции в цикле.
@@ -85,8 +84,8 @@
 #         print(f'{year} from your fanc --> {is_year_leap(year)}')
 #         print(f'but expected --> {result}')
 
-# Home work (lab BMI)
-
+# # Home work (lab BMI)
+#
 # def bmi(weight, height):
 #     """Вычислить индекс массы тела.
 #
@@ -99,9 +98,8 @@
 #     """
 #     if height < 1.0 or height > 2.5 or weight < 20 or weight > 200:
 #         return None
-#     return round((weight / height ** 2), 1)
+#     return round(weight / height ** 2, 1)
 #
-# print(bmi(80, 1.78))
 #
 # def main():
 #     """Расчет индекса массы тела"""
@@ -112,31 +110,33 @@
 #
 #         Необходимо ввести вес в килограммах и рост в метрах
 #
-#         Для выхода из программы необходиммо ввести "-1"
+#         Для выхода из программы необходммо ввести "-1"
 #
 #     ##############################################################
 #             """)
 #
 #
 #
-#     weight,  height= float(input
+#     weight, height= float(input
 #                 ("Введите вес в килограммах или -1 для выхода: ").strip()), \
 #                 float(input("Введите рост в метрах или -1 для выхода: ").strip())
 #
-#     while weight != -1 or height != -1:
+#     while weight != -1 and height != -1:
 #         ind = bmi(weight, height)
-#         if ind <= 18.3:
+#         if ind is None:
+#             print('Вы ввели неправильное значение')
+#         elif ind <= 18.3:
 #             print(f'Ваш ИМТ {ind} - это дефицит массы тела')
-#         elif ind > 18.3 and ind <= 24.9:
+#         elif ind <= 24.9:
 #             print(f'Ваш ИМТ {ind} - это норма')
-#         elif ind > 24.9 and ind <=29.8:
+#         elif ind <=29.8:
 #             print(f'Ваш ИМТ {ind} - это предожирение')
-#         elif ind > 29.8 and ind <=34:
-#             print(f'Ваш ИМТ {ind} - это ожирений 1 степени')
-#         elif ind > 34 and ind <= 40:
-#             print(f'Ваш ИМТ {ind} - это ожирений 2 степени')
-#         elif ind > 40 and ind <= 52:
-#             print(f'Ваш ИМТ {ind} - это ожирений 3 степени')
+#         elif ind <=34:
+#             print(f'Ваш ИМТ {ind} - это ожирение 1 степени')
+#         elif ind <= 40:
+#             print(f'Ваш ИМТ {ind} - это ожирение 2 степени')
+#         elif ind <= 52:
+#             print(f'Ваш ИМТ {ind} - это ожирение 3 степени')
 #         else:
 #             print('Вы ввели неправильное значение.')
 #
@@ -149,7 +149,7 @@
 
 # # Home work 5.4 Fibonacci numbers
 #
-# def fibonacci_number(number):
+# def fibonacci_sum(number):
 #     """
 #     ####################################################################
 #     #  Эта программа рассчитывает сумму элементов последовательности   #
@@ -163,21 +163,15 @@
 #     if number < 3:
 #         return 1
 #
-#     elem_1 = elem_2 = 1
+#     elem_1 = elem_2 = 1  # Задаем первоначальные значения первого и второго элекментов.
 #
-#     fib_sum = 0
+#     fib_sum = 0  # Переменная хранит сумму элементов последовательности.
 #
 #     for i in range(3, number + 1):
 #         fib_sum = elem_1 + elem_2
 #         elem_1, elem_2 = elem_2, fib_sum
 #     return fib_sum
 #
-#
-#
+# # Тестовые данные.
 # for i in range(-1, 25):
-#     print(fibonacci_number(i))
-
-
-
-
-
+#     print(fibonacci_sum(i))

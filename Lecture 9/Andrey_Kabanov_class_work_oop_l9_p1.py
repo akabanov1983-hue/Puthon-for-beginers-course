@@ -30,7 +30,7 @@ class Animal:
     pass
 
 
-mycar = Car()
+mycar =   Car()
 
 mywallet = Wallet()
 
