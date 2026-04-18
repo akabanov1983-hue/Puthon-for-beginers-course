@@ -46,28 +46,28 @@
 
 # stack
 
-class Stack:
-
-    def __init__(self):
-        self.__storage = []
-
-    def push(self, value):
-        self.__storage.append(value)
-        print("Добавляю:", value)
-
-    def pop(self):
-        try:
-            res = self.__storage.pop()
-            print('удалил', res)
-        except IndexError:
-            print('Склад пуст')
-        except:
-            print('Ошибочка')
-
-sklad1 = Stack()
-sklad1.push(1456)
-print(sklad1)
-sklad1.pop()
-print(sklad1)
+# class Stack:
+#
+#     def __init__(self):
+#         self.__storage = []
+#
+#     def push(self, value):
+#         self.__storage.append(value)
+#         print("Добавляю:", value)
+#
+#     def pop(self):
+#         try:
+#             res = self.__storage.pop()
+#             print('удалил', res)
+#         except IndexError:
+#             print('Склад пуст')
+#         except:
+#             print('Ошибочка')
+#
+# sklad1 = Stack()
+# sklad1.push(1456)
+# print(sklad1)
+# sklad1.pop()
+# print(sklad1)
 
 
