@@ -1,12 +1,12 @@
 import pygame
 
 run= True
-w = 400
+w = 600
 h = 100
 pygame.init()
 sc= pygame.display.set_mode((w, h))
 f = pygame.font.SysFont(None, 48)
-t = f.render("Welcome to pygame!)", True, (255, 255, 255))
+t = f.render("Все работает! И я не Петр!", True, (255, 255, 255))
 sc.blit(t, ((w -t.get_width()) // 2, (h -t.get_height())))
 pygame.display.flip()
 while run:
