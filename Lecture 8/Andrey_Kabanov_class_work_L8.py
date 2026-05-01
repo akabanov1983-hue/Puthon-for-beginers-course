@@ -66,8 +66,8 @@
 #     except:
 #         print('Ошибка')
 
-def xxx(x):
-    return x**2
-
-
-print(xxx(5))
+# def xxx(x):
+#     return x**2
+#
+#
+# print(xxx(5))
