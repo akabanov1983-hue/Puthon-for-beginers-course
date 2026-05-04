@@ -100,11 +100,11 @@ def update_transaction_by_id(transaction_id):
 
 # get_transaction_by_id(3)
 
-get_list_of_transactions()
-
-delete_transaction_by_id(1)
-
-get_list_of_transactions()
-
-delete_transaction_by_id(1)
+# get_list_of_transactions()
+#
+# delete_transaction_by_id(1)
+#
+# get_list_of_transactions()
+#
+# delete_transaction_by_id(1)
 

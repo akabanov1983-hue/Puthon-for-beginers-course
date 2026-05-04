@@ -1,0 +1,1 @@
+DELETE from task WHERE task_id = 2
